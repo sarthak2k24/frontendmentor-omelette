@@ -1,0 +1,100 @@
+body {
+  background-color: hsl(30, 54%, 90%);
+  font-family: "Outfit", sans-serif;
+}
+
+.full-section {
+  background-color: hsl(0, 0%, 100%);
+  padding: 25px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  width: 30%;
+  margin: 3% auto;
+}
+.full-section img {
+  width: 100%;
+  border-radius: 10px;
+}
+.full-section h1 {
+  color: hsl(24, 5%, 18%);
+  font-size: 2rem;
+  margin-bottom: 10px;
+  font-family: "Young Serif", serif;
+}
+
+.full-section p {
+  color: hsl(24, 5%, 18%);
+  font-size: 0.8rem;
+  margin-bottom: 10px;
+}
+
+.prep-time {
+  background-color: hsl(283, 100%, 94%);
+  padding: 3px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.prep-heading {
+  color: hsl(332, 51%, 32%);
+  font-size: 1rem;
+  margin-left: 20px;
+}
+
+.span-bullet {
+  color: hsl(30, 10%, 34%);
+  font-weight: bold;
+}
+
+.prep-time li {
+  color: hsl(30, 10%, 34%);
+  font-size: 0.8rem;
+  margin-bottom: 10px;
+}
+
+.ingredients-heading,
+.instructions-heading,
+.nutrition-heading {
+  color: hsl(25, 74%, 34%);
+  font-size: 1.5rem;
+  font-family: "Young Serif", serif;
+  margin-bottom: 5px;
+}
+
+.ingredients-list,
+.instructions-list {
+  padding-left: 20px;
+}
+.ingredients-list li,
+.instructions-list li {
+  color: hsl(30, 10%, 34%);
+  font-size: 0.8rem;
+  margin-bottom: 10px;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+li {
+  padding-left: 15px; /* Adjust this value to increase or decrease the space */
+}
+table {
+  width: 100%; /* Make the table take up the full width of its container */
+  border-collapse: collapse; /* Collapse borders */
+}
+
+td,
+th {
+  border-bottom: 1px solid #ddd; /* Add a border to the cells */
+  padding: 8px; /* Add some padding */
+  text-align: left; /* Align text to the left */
+}
+
+th {
+  font-weight: bold; /* Add a background color to the header cells */
+  color: hsl(14, 45%, 36%); /* Make the text color white */
+}
